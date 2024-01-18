@@ -1,0 +1,461 @@
+.page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.page-navbar {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 1200px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 25px;
+  margin-bottom: 83px;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #000000;
+}
+.page-desktop {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.page-main {
+  gap: var(--dl-space-space-fiveunits);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.page-branding {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.page-navlink {
+  color: #ffffff;
+  font-size: 23px;
+  font-family: "Outfit";
+  margin-left: -40px;
+  text-decoration: none;
+}
+.page-mobile {
+  gap: var(--dl-space-space-fourunits);
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  z-index: 200;
+  position: fixed;
+  transform: translateX(100%);
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.page-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.page-image {
+  width: 150px;
+  object-fit: cover;
+}
+.page-icon {
+  width: 28px;
+  height: 28px;
+}
+.page-links {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.page-navlink1 {
+  text-decoration: none;
+}
+.page-navlink2 {
+  text-decoration: none;
+}
+.page-navlink3 {
+  text-decoration: none;
+}
+.page-navlink4 {
+  text-decoration: none;
+}
+.page-buttons {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.page-navlink5 {
+  display: contents;
+}
+.page-btn {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #ADE2DF;
+}
+.page-text {
+  font-style: normal;
+  font-weight: 500;
+}
+.page-navlink6 {
+  display: contents;
+}
+.page-btn1 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #ADE2DF;
+}
+.page-text01 {
+  font-style: normal;
+  font-weight: 500;
+}
+.page-container02 {
+  display: contents;
+}
+.page-form {
+  width: 499px;
+  height: 846px;
+  display: flex;
+  align-items: center;
+  padding-top: 56px;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 35px;
+  margin-bottom: 72px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ede7e7;
+  overflow: hidden;
+}
+.page-text02 {
+  font-size: 32px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: "Outfit";
+  font-weight: 600;
+}
+.page-container03 {
+  flex: 0 0 auto;
+  width: 331px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.page-text03 {
+  margin-top: 65px;
+  font-family: "Outfit";
+  margin-right: 20px;
+}
+.page-textinput {
+  margin-top: 56px;
+}
+.page-container04 {
+  flex: 0 0 auto;
+  width: 331px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.page-text04 {
+  margin-top: 52px;
+  font-family: "Outfit";
+  margin-right: 20px;
+}
+.page-textinput1 {
+  margin-top: 45px;
+}
+.page-container05 {
+  flex: 0 0 auto;
+  width: 331px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.page-text05 {
+  margin-top: 49px;
+  font-family: "Outfit";
+  margin-right: 20px;
+}
+.page-textinput2 {
+  margin-top: 40px;
+}
+.page-container06 {
+  flex: 0 0 auto;
+  width: 331px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.page-text06 {
+  margin-top: 49px;
+  font-family: "Outfit";
+  margin-right: 20px;
+}
+.page-textinput3 {
+  width: 230px;
+  height: 38px;
+  margin-top: 40px;
+}
+.page-thq-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.page-dropdown-list {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.page-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.page-dropdown-toggle {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.page-dropdown-toggle:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.page-text07 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.page-dropdown1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.page-dropdown-toggle1 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.page-dropdown-toggle1:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.page-text08 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.page-dropdown2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.page-dropdown3 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.page-dropdown4 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.page-container07 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.page-text09 {
+  margin-top: 48px;
+  font-family: "Outfit";
+}
+.page-container08 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.page-select {
+  width: 250px;
+  padding: 10px;
+  margin-top: 40px;
+  margin-left: 27px;
+  border-radius: 10px;
+  padding-right: 10px;
+}
+.page-container09 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.page-text12 {
+  margin-top: 48px;
+  font-family: "Outfit";
+}
+.page-container10 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.page-select1 {
+  width: 193px;
+  padding: 10px;
+  margin-top: 40px;
+  margin-left: 27px;
+  border-radius: 10px;
+  padding-right: 10px;
+}
+.page-button {
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 100px;
+  font-family: "Poppins";
+  font-weight: 500;
+  padding-top: 15px;
+  padding-left: 50px;
+  border-radius: 20px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+}
+.error-message {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 100px;
+  margin-left: -100px;
+}
+.error-message0 {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 92px;
+  margin-left: -92px;
+}
+.error-message1 {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 92px;
+  margin-left: -128px;
+}
+.error-message2 {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 92px;
+  margin-left: -156px;
+}
+.input.error {
+  border-color: #ff0000;
+}
+@media(max-width: 991px) {
+  .page-navbar {
+    align-items: center;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 767px) {
+  .page-navbar {
+    align-items: center;
+  }
+  .page-mobile {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}

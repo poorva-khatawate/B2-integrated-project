@@ -1,0 +1,112 @@
+/* Styles for the fixed navbar */
+.scrolled {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow when fixed */
+  z-index: 1000; /* Ensure it's on top of other content */
+}
+
+.navbar {
+  display: flex;
+  background-color: white;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.logo-container {
+  margin-top: 4px;
+ margin-left: 30px;
+}
+.logo-container img{
+  max-height: 85px;
+  max-width: 1300px;
+}
+
+.ulnav {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 400px;
+}
+
+.home{
+  background-color: black;
+  color: white;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+.home:hover{
+  transition-duration: 500ms;
+  border: 1px solid black;
+  box-shadow: 3px 8px 6px rgba(0, 0, 0, 0.1);
+  text-shadow: #333;
+  background-color: white;
+  color: black;
+  /* text-transform: uppercase; */
+}
+.button-b{
+  background-color: black;
+  color: white;
+  padding-inline: 22px;
+  padding-block: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  border: 1px solid black;
+}
+.button-b:hover{
+  transition-duration: 500ms;
+  border: 1px solid black;
+  box-shadow: 3px 8px 6px rgba(0, 0, 0, 0.1);
+  text-shadow: #333;
+  background-color: white;
+  color: black;
+}
+
+button:hover{
+  box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.1);
+  text-shadow: #333;
+  /* text-transform: uppercase; */
+}
+@media only screen and (max-width: 768px) {
+  .logo-container img{
+    max-height: 69px;
+    max-width: 1000px;
+  }
+  .ulnav {
+    gap: 10px; /* Adjusted gap for smaller screens */
+    flex-direction: column;
+  }
+
+  .home{
+    padding: 3px 3px; /* Adjusted padding for smaller screens */
+    font-size: 12px;
+  }
+  button{
+    padding: 5px 5px;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .navbar {
+    flex-direction: row; /* Change to a column layout for mobile screens */
+    align-items: flex-start; /* Align items to the start for better mobile display */
+  }
+
+  .ulnav {
+    margin-right: 0; /* Remove right margin for mobile screens */
+  }
+
+  .home {
+    margin-top: 10px; /* Add top margin for better spacing on mobile screens */
+    margin-right: 15px;
+    padding: 6px 8px;
+  }
+}

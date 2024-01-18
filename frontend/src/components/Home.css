@@ -1,0 +1,29 @@
+.imgfor{
+    width: 100vw;
+    max-height: 120vh;
+}
+.slideshow{
+    margin-top: -30px;
+}
+body{
+    overflow-x: hidden;
+}
+.heading{
+    color: black;
+    text-align: center;
+    font-size:xx-large;
+    margin-block: 50px;
+}
+.gofor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ranking{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
